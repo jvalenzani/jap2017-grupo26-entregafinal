@@ -1,0 +1,66 @@
+{
+    "categorias" : [
+        { "id": 1, "nombre":"Acción"},
+        { "id": 2, "nombre":"Aventura"},
+        { "id": 3, "nombre":"RPG"},
+        { "id": 4, "nombre":"Indie"},
+        { "id": 5, "nombre":"Deportes"},
+        { "id": 6, "nombre":"Estrategia"}
+],
+"juegos" : [
+    { "id" : 1,
+        "nombre" : "Cuphead",
+        "descripcion" : "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.        Play as Cuphead or Mugman (in single player or local co-op) as you traverse strange worlds, acquire new weapons, learn powerful super moves, and discover hidden secrets while you try to pay your debt back to the devil!",
+        "valoracion" : 5.0,
+        "precio": 18.13,
+        "coverimg" : "1.jpg",
+        "plataformas" : [ {"nombre": "Windows"} ],        
+        "categoriaId" : 1
+    },
+    { "id" : 2,
+        "nombre" : "Thimbleweed Park",
+        "descripcion" : "Welcome to Thimbleweed Park. Population: 80 nutcases. A haunted hotel, an abandoned circus, a burnt-out pillow factory, a dead body pixelating under the bridge, toilets that run on vacuum tubes... you’ve never visited a place like this before. Five people with nothing in common have been drawn to this rundown, forgotten town. Read more        ",
+        "valoracion" : 4.5,
+        "precio": 11.00,
+        "coverimg" : "2.jpg",
+        "plataformas" : [{"nombre": "Windows"}, {"nombre": "Mac OS X"}, {"nombre": "Linux"}],
+        "categoriaId" : 2
+    },
+    { "id" : 3,
+        "nombre" : "Baldur's Gate: Siege of Dragonspear",
+        "descripcion" : "Baldur’s Gate: Siege of Dragonspear adds a new chapter to the Bhaalspawn saga. The events occurring between Baldur’s Gate and Baldur’s Gate II are at last revealed in this 25-hour expansion for Baldur's Gate: Enhanced Edition.        ",
+        "valoracion" : 2.5,
+        "precio": 11.77,
+        "coverimg" : "3.jpg",
+        "plataformas" : [{"nombre": "Windows"}, {"nombre": "Mac OS X"}, {"nombre": "Linux"}],
+        "categoriaId" : 3
+    },
+    { "id" : 4,
+        "nombre" : "Kerbal Space Program",
+        "descripcion" : " Kerbal Space Program is a multi-genre game where players create their own space program. In KSP, you must build space-worthy craft, capable of flying your crew out into space, without killing them. At your disposal is a collection of parts, which must be assembled to create a functional ship. Read more        ",
+        "valoracion" : 5.0,
+        "precio": 24.99,
+        "coverimg" : "4.jpg",
+        "plataformas" : [{"nombre": "Windows"}, {"nombre": "Mac OS X"}, {"nombre": "Linux"}],
+        "categoriaId" : 4
+    },
+    { "id" : 5,
+        "nombre" : "Moto Racer",
+        "descripcion" : "A legend among motorcycle racers and the most memorable game of its kind to ever hit the PC market. Offering a superb blend of lightning-fast superbike racing and hairpin curve-infested motocross events, it became an instant classic. It's got a bunch of nifty features, like two driving models (arcade and simulation), vivid graphics that look pretty nice even today and a broad selection of motorcycles to choose from.",
+        "valoracion" : 3.5,
+        "precio": 3.85,
+        "coverimg" : "5.jpg",
+        "plataformas" : [{"nombre": "Windows"}],
+        "categoriaId" : 5
+    },
+    { "id" : 6,
+        "nombre" : "Dungeons 3",
+        "descripcion" : "At last, the Dungeon Lord has successfully united the forces of evil and established his dark empire. Time for the next step in his most diabolical quest: expansion! Through enticing the dark elf priestess Thalya from the fluffy clutches of the surface world to become his chief lieutenant, the Dungeon Lord has found a way to direct his campaign of conquest from the confines of his underground lair. Read more",
+        "valoracion" : 4.0,
+        "precio": 25.48,
+        "coverimg" : "6.jpg",
+        "plataformas" : [{"nombre": "Windows"}, {"nombre": "Mac OS X"}, {"nombre": "Linux"}],
+        "categoriaId" : 6
+    }
+]
+}

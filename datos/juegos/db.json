@@ -62,5 +62,17 @@
         "plataformas" : [{"nombre": "Windows"}, {"nombre": "Mac OS X"}, {"nombre": "Linux"}],
         "categoriaId" : 6
     }
-]
+],
+"users": [
+    {
+      "email": "jvalenzani@gmail.com",
+      "firstname": "javier",
+      "lastname": "valenzani",
+      "password": "supersecreto1",
+      "sex": "1",
+      "newsletter": false,
+      "id": 1,
+      "carrito" : []
+    }
+  ]
 }

@@ -1,0 +1,78 @@
+{
+    "categorias" : [
+        { "id": 1, "nombre":"Claude Monet"},
+        { "id": 2, "nombre":"Edouard Manet"},
+        { "id": 3, "nombre":"Frida"},
+        { "id": 4, "nombre":"Johannes Vermeer"},
+        { "id": 5, "nombre":"Munch"},
+        { "id": 6, "nombre":"Picasso"}
+],
+"paints" : [
+    { "id" : 1,
+        "nombre" : "Bain à la Grenouillère",
+        "descripcion" : "Was a popular middle-class resort consisting of a spa, a boating establishment and a floating café. Optimistically promoted as Trouville-sur-Seine, it was located on the Seine near Bougival",
+        "valoracion" : 7499,
+        "precio": 22.000,
+        "coverimg" : "1.jpg",
+        "materiales" : [ {"nombre": "Oil"}, {"nombre": "Canvas"}],        
+        "categoriaId" : 1
+    },
+    { "id" : 2,
+        "nombre" : "Olympia",
+        "descripcion" : "Shows a nude woman Olympia lying on a bed being brought flowers by a servant",
+        "valoracion" : 130190 ,
+        "precio": 11.000,
+        "coverimg" : "2.jpg",
+        "materiales" : [{"nombre": "Oil"}, {"nombre": "Canvas"}],
+        "categoriaId" : 2
+    },
+    { "id" : 3,
+        "nombre" : "The Two Fridas",
+        "descripcion" : "Shows Frida's two different personalities. One is the traditional Frida in Tehuana costume, with a broken heart, sitting next to an independent, modern dressed Frida",
+        "valoracion" : 173173,
+        "precio": 11.770,
+        "coverimg" : "3.jpg",
+        "materiales" : [{"nombre": "Oil"}, {"nombre": "Canvas"}],
+        "categoriaId" : 3
+    },
+    { "id" : 4,
+        "nombre" : "Girl with a Pearl Earring",
+        "descripcion" : " It depicts a European girl wearing an exotic dress, an oriental turban, and an improbably large pearl earring ",
+        "valoracion" : 4439,
+        "precio": 24.990,
+        "coverimg" : "4.jpg",
+        "materiales" : [{"nombre": "Oil"}, {"nombre": "Canvas"}],
+        "categoriaId" : 4
+    },
+    { "id" : 5,
+        "nombre" : "The Scream",
+        "descripcion" : "Show a figure with an agonized expression against a landscape with a tumultuous orange sky. Arthur Lubow has described The Scream as an icon of modern art, a Mona Lisa for our time",
+        "valoracion" : 3573,
+        "precio": 30.850,
+        "coverimg" : "5.jpg",
+        "materiales" : [{"nombre": "Oil"}, {"nombre": "tempera"},{"nombre": "pastel"},{"nombre": "crayon"},{"nombre": "cardboard"}],
+        "categoriaId" : 5
+    },
+    { "id" : 6,
+        "nombre" : "Les Demoiselles d'Avignon",
+        "descripcion" : "The work portrays five nude female prostitutes from a brothel on Carrer d'Avinyó (Avignon Street) in Barcelona. Each figure is depicted in a disconcerting confrontational manner and none are conventionally feminine",
+        "valoracion" : 243233,
+        "precio": 25.480,
+        "coverimg" : "6.jpg",
+        "materiales" : [{"nombre": "Oil"}, {"nombre": "Canvas"}],
+        "categoriaId" : 6
+    }
+],
+"users": [
+    {
+      "email": "jvalenzani@gmail.com",
+      "firstname": "javier",
+      "lastname": "valenzani",
+      "password": "supersecreto1",
+      "sex": "1",
+      "newsletter": false,
+      "id": 1,
+      "carrito" : []
+    }
+  ]
+}
